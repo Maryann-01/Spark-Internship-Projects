@@ -1,0 +1,60 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+.sect-one{
+    background-color:rgb(188, 131, 241);
+
+}
+
+header{
+     text-align: center;
+     font-size:3em;
+     color:rgba(15, 6, 22,0.8);
+     font-weight: 700;
+     padding:0.3em 0em 0.4em;
+    }
+.sect-one .intro{
+    font-size: 2.5em;
+    padding-left:2em; 
+    display:flex; 
+    justify-content: space-around;
+    align-items: center;
+}
+.intro h2{
+    text-align: left;
+}
+.intro .profile-img img{
+ width:320px;
+ height:320px;
+ margin-bottom:3px;
+ border-radius: 50%;
+}
+.name{
+    color:white;
+}
+.sect-two{
+    margin:5vh;
+    display:flex;
+    gap:5vw;
+}
+.sect-two div{
+    border:2px solid rgba(188, 131, 241,0.3);
+}
+.sect-two h1{
+    color:rgb(188, 131, 241);
+    text-align: center;
+    padding:10px;
+}
+.sect-two p{
+    font-size:20px;
+    line-height: 1.7em;
+    color:rgba(15, 6, 22,0.8);
+    padding:15px;
+}
+
+.school .bold{
+    font-weight: 800;
+    color:rgb(188, 131, 241);
+}
