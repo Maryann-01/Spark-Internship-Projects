@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color:hsl(30, 54%, 90%) ;
+    padding: 1.9rem 2.5rem;
+    min-height: 100vh;
+    line-height: 1.6;
+    font-size: 1em;
+}
+.main-div{
+    border-radius: 50px;
+    padding:2em;
+    background-color: white;
+overflow: hidden;
+width:45%;
+display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap:3vh;
+    margin:0 auto;
+}
+.main-div header>img{
+    border-radius:30px;
+    overflow: hidden;
+    width:100%;
+}
+.desc h2{
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.prep-sect{
+    margin: 2.5vh 0;
+    background-color: hsl(330, 100%, 98%);
+    padding:15px 30px 30px;
+    border-radius:20px;
+}
+.prep-sect h3{
+    color: hsl(332, 51%, 32%);
+    
+ }
+.prep-sect ul li, .ingredients ul li{
+    padding:0vh 1vw;
+}
+.bold{
+    font-weight:600;
+}
+.ingredients h2, .instructions h2{
+    color:hsl(14, 45%, 36%);
+}
+.ingredients ul, .instructions ol{
+padding-left:1vw;
+}
+.instructions, .nutrition{
+    margin:2.5vh 0;
+    padding-bottom:2vh;
+    border-bottom: 3px solid hsl(30, 18%, 87%);
+}
+
