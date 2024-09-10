@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -7,60 +9,99 @@
 
 body {
     font-family: 'Outfit', sans-serif;
-    background-color:hsl(30, 54%, 90%) ;
+    background-color: hsl(30, 54%, 90%);
     padding: 1.9rem 2.5rem;
     min-height: 100vh;
     line-height: 1.6;
     font-size: 1em;
 }
-.main-div{
+
+.main-div {
     border-radius: 50px;
-    padding:2em;
+    padding: 2em;
     background-color: white;
-overflow: hidden;
-width:45%;
-display:flex;
+    overflow: hidden;
+    width: 43%;
+    display: flex;
     flex-direction: column;
     align-items: center;
-    gap:3vh;
-    margin:0 auto;
+    gap: 3vh;
+    margin: 0 auto;
 }
-.main-div header>img{
-    border-radius:30px;
+
+.main-div header>img {
+    border-radius: 30px;
     overflow: hidden;
-    width:100%;
+    width: 100%;
 }
-.desc h2{
+
+.desc h2 {
     font-family: "Young Serif", serif;
     font-weight: 400;
     margin-bottom: 5px;
 }
 
-.prep-sect{
+.prep-sect {
     margin: 2.5vh 0;
     background-color: hsl(330, 100%, 98%);
-    padding:15px 30px 30px;
-    border-radius:20px;
+    padding: 15px 30px 30px;
+    border-radius: 20px;
+
 }
-.prep-sect h3{
+
+.prep-sect h3 {
     color: hsl(332, 51%, 32%);
-    
- }
-.prep-sect ul li, .ingredients ul li{
-    padding:0vh 1vw;
+
 }
-.bold{
-    font-weight:600;
+
+.prep-sect ul li,
+.ingredients ul li {
+    padding: 0.3vh 1vw;
+    font-family: "Outfit", sans-serif;
 }
-.ingredients h2, .instructions h2{
-    color:hsl(14, 45%, 36%);
+
+.bold {
+    font-weight: 600;
 }
-.ingredients ul, .instructions ol{
-padding-left:1vw;
-}
-.instructions, .nutrition{
-    margin:2.5vh 0;
-    padding-bottom:2vh;
+
+.ingredients {
+    padding-bottom: 3vh;
     border-bottom: 3px solid hsl(30, 18%, 87%);
 }
 
+.ingredients h2,
+.instructions h2, .nutrition-section h2 ,.table-row .right{
+    color: hsl(14, 45%, 36%);
+}
+
+.ingredients ul,
+.instructions ol {
+    padding-left: 1vw;
+}
+
+.instructions,
+.nutrition {
+    margin: 2.5vh 0;
+    padding-bottom: 3vh;
+    border-bottom: 3px solid hsl(30, 18%, 87%);
+}
+
+.instructions ol li {
+    padding: 1vh;
+}
+
+.table-row:not(:last-child)  {
+    border-bottom: 3px solid hsl(30, 18%, 87%);
+}
+.table-row{
+    padding:20px;
+    display:flex;
+    justify-content: space-around;
+    padding-right:15vw;
+    gap:5vw;
+     font-family: "Outfit", sans-serif;
+}
+
+.table-row .right,.table-row .left{
+font-weight: 700;
+}
