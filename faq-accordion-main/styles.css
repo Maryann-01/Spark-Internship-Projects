@@ -40,3 +40,32 @@ main p{
 main h4{
     color:hsl(292, 42%, 14%);
 }
+.icon {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  .ans{
+    display: none;
+    margin-top: 10px;
+  }
+  
+  .faq.active .ans{
+    display: block;
+  }
+  
+  .faq.active .plus {
+    display: none;
+  }
+  
+  .faq.active .minus {
+    display: inline;
+  }
+footer{
+    margin:10vh auto;
+}
