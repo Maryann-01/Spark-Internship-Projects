@@ -1,0 +1,42 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    background-image: url("../faq-accordion-main/assets/images/background-pattern-desktop.jpg");
+    background-size:100vw 30vh ;
+    background-repeat: no-repeat;
+}
+main{
+    width:30%;
+    margin:10vh auto 0vh;
+    background-color: white;
+    border-radius: 20px;
+    padding:10px 20px;
+    display:flex;
+    flex-direction: column;
+    gap:2vh;
+}
+.one{
+    display:flex;
+    gap:1vw;
+}
+.one h1{
+    color:hsl(292, 42%, 14%);
+    font-size:2em;
+}
+.faq{
+    margin-bottom: 10px;
+}
+.faq-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+main p{
+    color: hsl(292, 16%, 49%);
+}
+main h4{
+    color:hsl(292, 42%, 14%);
+}
